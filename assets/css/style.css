@@ -144,8 +144,9 @@ a {
 
 .modal-content {
     width: fit-content!important;
-    background-color: #1b1b1b!important;
+    background-color: transparent!important;
     height: 500px;
+    border:0!important;
 }
 
 .modal-header {
