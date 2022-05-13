@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M STREAM</title>
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Slick Slider File-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Css File-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body onload="preload()">
+    <!-- ====== Navbar ======-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="h1" style="color:rgb(182, 0, 0);font-size:xx-large">M</span> STREAM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Movies.html">MOVIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./TvShows.html">TVSHOWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VIDEOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+          </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-white" href="#">About us</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex justify-content-end">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <a href="#">
+                        <i class="bi bi-search ms-2 fs-5 "></i>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- ======= Header ======= -->
+    <div id="header" class=" d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h1 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="movie-name">Spider-Man: No Way Home</h1>
+                    <span data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine" class="rate-star">
+                        <i class="bi bi-star-fill fs-5 "></i>
+                        <i class="bi bi-star-fill fs-5 "></i>
+                        <i class="bi bi-star-fill fs-5 "></i>
+                        <i class="bi bi-star-fill fs-5 "></i>
+                        <i class="bi bi-star-half fs-5 "></i>
+                    </span>
+                    <span data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine" class="rate-imdb">4.7(Imdb)</span>
+                    <span data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="movie-time ms-4"> 2h 28m</span>
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="row mt-3">
+                        <p class="description">Peter Parker seeks Doctor Strange's help to make people forget about Spiderman's identity. However, when the spell he casts gets corrupted, several unwanted guests enter their universe.</p>
+                    </div>
+                    <div data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" class="row">
+                        <p class="description"><span style="color:red">Genres:</span>Action</p>
+                    </div>
+                    <div data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" class="row">
+                        <p class="description"><span style="color:red">Tag:</span>Action,Adventure</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 offset-lg-3 d-flex flex-column justify-content-center align-content-center " data-aos="zoom-in" data-aos-delay="600">
+                    <button type="button" class="glightbox play-btn text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered col-sm-12 col-md-12 col-lg-12">
+                        <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center">
+                                <iframe width="400" height="400" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-circle"></i></a>
+
+    <!-- ====== Top Rated Movies =======-->
+    <section id="Topmovies" class="my-5">
+        <div class="container ">
+            <div class="d-flex justify-content-between">
+                <div class="text-white fs-4">Top Rated Movies</div>
+                <a href="./View-all.html" class="viewall fs-4 me-5 my-auto">View All</a>
+            </div>
+            <!-- Slider -->
+            <div class="slider mt-4 " width="50%">
+                <div data-aos="fade-up" data-aos-duration="900" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/The batman.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">THE BATMAN</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/Doctor Strange.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">DOCTOR STRANGE</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/UnCharted.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">UNCHARTED</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/F9.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">F9</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="5000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/Venom.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">VENOM</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="6000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/interstellar.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">INTERSTELLAR</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="7000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/back to the future.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">BACK TO THE FUTURE</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="8000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/joker.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">JOKER</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="9000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/avatar.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">AVATAR</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- ====== Popular Movies =======-->
+    <section id="popularmovies" class="my-5">
+        <div class="container ">
+            <div class="d-flex justify-content-between">
+                <div class="text-white fs-4">Popular Movies</div>
+                <a href="./View-all.html" class="viewall fs-4 me-5 my-auto">View All</a>
+            </div>
+            <!-- Slider -->
+            <div class="slider mt-4">
+                <div data-aos="fade-left" data-aos-duration="900" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/interstellar.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">INTERSTELLAR</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/back to the future.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">BACK TO THE FUTURE</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="2000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/joker.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">JOKER</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="3000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/avatar.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">AVATAR</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/The batman.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">THE BATMAN</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/Doctor Strange.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">DOCTOR STRANGE</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/UnCharted.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">UNCHARTED</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/F9.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">F9</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/Venom.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">VENOM</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!--==== Coming Soon ======-->
+    <section id="comingsoon">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h1 class="text-center text-white">COMING SOON</h1>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/john wick.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/Thor.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/venom 1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Recommended Movies =======-->
+    <section id="recommendedmovies" class="my-5">
+        <div class="container ">
+            <div class="d-flex justify-content-between">
+                <div class="text-white fs-4">Recommended For You
+                </div>
+                <a href="./View-all.html" class="viewall fs-4 me-5 my-auto">View All</a>
+            </div>
+            <!-- Slider -->
+            <div class="slider mt-4">
+                <div data-aos="fade-right" data-aos-duration="900" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/The batman.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">THE BATMAN</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/Doctor Strange.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">DOCTOR STRANGE</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="2000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/UnCharted.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">UNCHARTED</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div data-aos="fade-right" data-aos-duration="3000" class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/F9.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">F9</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/Venom.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">VENOM</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/interstellar.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">INTERSTELLAR</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/back to the future.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">BACK TO THE FUTURE</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/joker.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">JOKER</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <a href="./Movie-detail.html">
+                        <div class="card bg-transparent" style="width: 18rem;">
+                            <img src="./assets/img/avatar.jpg" height="400px" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text text-center text-white fs-4">AVATAR</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!--===== Footer ======-->
+    <footer class=" mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 col-md-4 col-lg-4 ">
+                    <div class="my-5 d-flex justify-content-between">
+                        <a class="link-footer" href="#">Terms Of Us</a>
+                        <a class="link-footer" href="#">Privacy-Policy</a>
+                        <a class="link-footer" href="#">FAQ</a>
+                        <a class="link-footer" href="#">Watch List</a>
+                    </div>
+                    <div class="row">
+                        <p class="text-white">© 2022 M Stream. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, M Stream Inc. Duplication and copy of this is strictly prohibited. All rights
+                            reserved.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-lg-1 offset-md-1">
+                    <div class="my-5 text-white text-center fs-4">Follow Us :</div>
+                    <div class="row ">
+                        <div class="d-flex justify-content-around">
+                            <a href="#">
+                                <i class="bi bi-facebook text-white fs-4 "></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-twitter text-white fs-4 "></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-instagram text-white fs-4 "></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-youtube text-white fs-4 "></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 offset-lg-1 offset-md-1">
+                    <div class="my-5 text-white text-center fs-4">M Stream App:</div>
+                    <div class="row mb-5">
+                        <div class="d-flex justify-content-center">
+                            <a href="#">
+                                <i class="bi bi-google text-white fs-4 "></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-apple text-white fs-4 "></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- <div id="preloader"></div> -->
+    <!-- Vendor JS Files -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <!-- Slick SLider Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JS File-->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
